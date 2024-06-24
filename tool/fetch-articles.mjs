@@ -10,7 +10,7 @@ const TARGET_URL_LIST = [
   "https://www.recreation.jp/movie/articles/2/13",
 ];
 
-const fdOutput = fs.openSync("output.txt", "w");
+const fdOutput = fs.openSync("articles.tsv", "w");
 try {
   for (const TARGET_URL of TARGET_URL_LIST) {
     const targetUrl = new URL(TARGET_URL);
@@ -59,7 +59,7 @@ try {
         if (urlPath && title) {
           fs.writeSync(
             fdOutput,
-            `https://www.recreation.jp${urlPath}, ${category}, ${title}\n`,
+            `https://www.recreation.jp${urlPath}\t${category}\t${title}\n`,
           );
         }
       }
