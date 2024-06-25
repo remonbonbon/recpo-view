@@ -35,6 +35,12 @@
     if (sortOption === "latest") {
       tmp = _.orderBy(tmp, "publishedAt", "desc");
     }
+    if (sortOption === "like") {
+      tmp = _.orderBy(tmp, "likeCount", "desc");
+    }
+    if (sortOption === "view") {
+      tmp = _.orderBy(tmp, "viewCount", "desc");
+    }
     if (sortOption === "random") {
       tmp = _.shuffle(tmp);
     }
@@ -126,6 +132,8 @@
           <div class="select is-rounded">
             <select bind:value={sortOption}>
               <option value="latest">最新</option>
+              <option value="like">評価</option>
+              <option value="view">閲覧数</option>
               <option value="random">ランダム</option>
             </select>
           </div>
@@ -163,10 +171,15 @@
               <div class="media">
                 <div class="media-content">
                   <h4 class="title is-4">{article.title}</h4>
-                  <h6 class="subtitle is-6">
-                    {article.publishedAt}<br />{article.category} | 人数 {article.numOfPlayers}
-                    | 時間 {article.howLong}
-                  </h6>
+                  <h7 class="subtitle is-7">
+                    {article.publishedAt}
+                    <i class="fa-solid fa-heart ml-4"></i>
+                    {article.likeCount.toLocaleString()}
+                    <i class="fa-solid fa-eye ml-4"></i>
+                    {article.viewCount.toLocaleString()}
+                    <br />
+                    {article.category} | 人数 {article.numOfPlayers} | 時間 {article.howLong}
+                  </h7>
                 </div>
               </div>
               <div class="content _article-description">

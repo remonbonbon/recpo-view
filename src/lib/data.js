@@ -1,3 +1,5 @@
+import _ from "lodash-es";
+
 const articles = [
   {
     category: "高齢者レク",
@@ -2153,4 +2155,11 @@ const articles = [
     youtubeId: "NNb4Bvabm_Q",
   },
 ];
+
+// サンプル用にランダムに人気度などを設定する
+for (const a of articles) {
+  a.likeCount = _.random(10, 10000);
+  a.viewCount = _.random(10, 1000000);
+}
+
 export default articles;
