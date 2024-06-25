@@ -1,6 +1,4 @@
-import { shuffle } from "lodash-es";
-
-const articles = shuffle([
+const articles = [
   {
     category: "高齢者レク",
     title: "吹きゴマ",
@@ -2154,5 +2152,5 @@ const articles = shuffle([
     howLong: "--",
     youtubeId: "NNb4Bvabm_Q",
   },
-]);
+];
 export default articles;

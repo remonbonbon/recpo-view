@@ -1,52 +1,133 @@
 <script>
-  import { onMount } from "svelte";
-  import articles from "$lib/data";
+  import { default as GLOBAL_ARTICLES } from "$lib/data";
+  import _ from "lodash-es";
 
-  onMount(() => {
-    console.log(articles);
-  });
+  let categories = _.uniq(GLOBAL_ARTICLES.map((a) => a.category));
+  let playersList = _.uniq(GLOBAL_ARTICLES.map((a) => a.numOfPlayers));
+  playersList = _.sortBy(playersList, (p) => parseInt(p, 10) || 0);
+  let howLongList = _.uniq(GLOBAL_ARTICLES.map((a) => a.howLong));
+  let selectedCategories = [];
+  let selectedPlayers = [];
+  let selectedHowLong = [];
+
+  let articles = [];
+  $: {
+    articles = GLOBAL_ARTICLES
+      //
+      .filter(
+        (a) =>
+          selectedCategories.length === 0 ||
+          selectedCategories.includes(a.category),
+      )
+      //
+      .filter(
+        (a) =>
+          selectedPlayers.length === 0 ||
+          selectedPlayers.includes(a.numOfPlayers),
+      )
+      //
+      .filter(
+        (a) =>
+          selectedHowLong.length === 0 || selectedHowLong.includes(a.howLong),
+      );
+  }
 </script>
 
 <!------------------------------------>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<!-- ナビバー -->
+<nav class="navbar" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="#">test</a>
+    <span class="navbar-item">TEST</span>
   </div>
 
-  <div class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item"> Home </a>
-
-      <a class="navbar-item"> Documentation </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link"> More </a>
-
-        <div class="navbar-dropdown">
-          <a class="navbar-item"> About </a>
-          <a class="navbar-item is-selected"> Jobs </a>
-          <a class="navbar-item"> Contact </a>
-          <hr class="navbar-divider" />
-          <a class="navbar-item"> Report an issue </a>
-        </div>
+  <div class="navbar-item">
+    <div class="field has-addons">
+      <div class="control" style="width:30rem">
+        <input class="input is-rounded" type="text" placeholder="検索" />
+      </div>
+      <div class="control">
+        <button class="button is-dark is-rounded">
+          <span class="icon is-large" style="margin:0 .5rem">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+        </button>
       </div>
     </div>
   </div>
 </nav>
 <div class="columns">
-  <aside class="column is-2 hero is-fullheight">
-    <div>
-      <label class="checkbox">
-        <input type="checkbox" />
-        Remember me
-      </label>
+  <!-- サイドバー -->
+  <aside class="column is-2 is-fullheight _search-controlls">
+    <div class="container">
+      <div class="field">
+        <label class="label">カテゴリー</label>
+        {#each categories as cat}
+          <div class="control">
+            <label class="checkbox">
+              <input
+                type="checkbox"
+                value={cat}
+                bind:group={selectedCategories}
+              />{cat}</label
+            >
+          </div>
+        {/each}
+      </div>
+      <div class="field">
+        <label class="label">参加人数</label>
+        {#each playersList as players}
+          <div class="control">
+            <label class="checkbox">
+              <input
+                type="checkbox"
+                value={players}
+                bind:group={selectedPlayers}
+              />{players}</label
+            >
+          </div>
+        {/each}
+      </div>
+      <div class="field">
+        <label class="label">所要時間</label>
+        {#each howLongList as howLong}
+          <div class="control">
+            <label class="checkbox">
+              <input
+                type="checkbox"
+                value={howLong}
+                bind:group={selectedHowLong}
+              />{howLong}</label
+            >
+          </div>
+        {/each}
+      </div>
     </div>
   </aside>
-  <div class="column is-10 hero is-fullheight" id="message-feed">
+  <div class="column is-10 is-fullheight">
+    <!-- 件数とか -->
+    <div class="columns">
+      <div class="column is-4">
+        <span class="is-size-5">{articles.length} 件</span>
+      </div>
+      <div class="column is-4 is-offset-4">
+        <div class="control has-icons-left">
+          <div class="select is-rounded">
+            <select>
+              <option>Select dropdown</option>
+              <option>With options</option>
+            </select>
+          </div>
+          <div class="icon is-small is-left">
+            <i class="fa-solid fa-arrow-down-wide-short"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 一覧 -->
     <div class="grid _articles-grid">
       {#each articles as article}
-        <div class="cell">
+        <div class="cell _articles-cell">
           <div class="card">
             <div class="card-image">
               <figure class="image is-16by9">
@@ -66,7 +147,8 @@
                 <div class="media-content">
                   <h4 class="title is-4">{article.title}</h4>
                   <h6 class="subtitle is-6">
-                    {article.category} | 人数 {article.numOfPlayers} | 時間 {article.howLong}
+                    {article.publishedAt}<br />{article.category} | 人数 {article.numOfPlayers}
+                    | 時間 {article.howLong}
                   </h6>
                 </div>
               </div>
@@ -83,8 +165,20 @@
 
 <!------------------------------------>
 <style>
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  ._search-controlls {
+    margin-left: 0.5rem;
+  }
+  ._search-controlls .control {
+    margin-left: 0.5rem;
+  }
   ._articles-grid {
     --bulma-grid-column-min: 20rem;
+  }
+  ._articles-cell {
+    max-width: 30rem;
   }
   ._article-description {
     max-height: 6em;
