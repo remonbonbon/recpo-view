@@ -81,7 +81,7 @@
   <aside class="column is-2 is-fullheight _search-controlls">
     <div class="container">
       <div class="field">
-        <label class="label">カテゴリー</label>
+        <span class="label">カテゴリー</span>
         {#each categories as cat}
           <div class="control">
             <label class="checkbox">
@@ -95,7 +95,7 @@
         {/each}
       </div>
       <div class="field">
-        <label class="label">参加人数</label>
+        <span class="label">参加人数</span>
         {#each playersList as players}
           <div class="control">
             <label class="checkbox">
@@ -109,7 +109,7 @@
         {/each}
       </div>
       <div class="field">
-        <label class="label">所要時間</label>
+        <span class="label">所要時間</span>
         {#each howLongList as howLong}
           <div class="control">
             <label class="checkbox">
