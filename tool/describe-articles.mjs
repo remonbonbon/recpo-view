@@ -2,26 +2,32 @@ import fs from "node:fs";
 import { URL } from "node:url";
 import { parse } from "node-html-parser";
 
-const TARGET_URL_LIST = ["https://www.recreation.jp/movie/article/235/2/13"];
+const INPUT_LINES = fs.readFileSync("./articles.tsv", "utf8").split("\n");
+// const TARGET_URL_LIST = ["https://www.recreation.jp/movie/article/235/2/13"];
 
 const fdOutput = fs.openSync("articles.json", "w");
+let first = true;
+fs.writeSync(fdOutput, "[\n");
 try {
-  for (const TARGET_URL of TARGET_URL_LIST) {
-    const targetUrl = new URL(TARGET_URL);
+  for (const LINE of INPUT_LINES) {
+    const [url, category] = LINE.split("\t");
+    if (!url) continue;
+
+    const targetUrl = new URL(url);
     const destName = targetUrl.pathname.replace(/^\//, "").replace(/\//g, "-");
     // console.log(destName);
 
     const filePath = `./html/${destName}.html`;
-    console.log(TARGET_URL);
+    // console.log(url);
 
     let html = "";
     if (fs.existsSync(filePath)) {
-      console.log("Read from cache");
+      // console.log("Read from cache");
       html = fs.readFileSync(filePath, "utf8");
     } else {
       console.log("Fetch new");
       await sleep(3000);
-      const res = await fetch(TARGET_URL);
+      const res = await fetch(url);
       html = await res.text();
       fs.writeFileSync(filePath, html);
 
@@ -63,19 +69,26 @@ try {
       .replace(/\s+/g, "\n");
     // console.log(`[${desc2}]`);
 
-    fs.writeSync(
-      fdOutput,
+    let output =
       JSON.stringify({
+        url,
+        category,
         title,
         publishedAt,
-        desc,
+        description: desc,
         numOfPlayers,
         howLong,
-        desc2,
-      }) + "\n",
-    );
+        detail: desc2,
+      }) + "\n";
+    if (!first) {
+      output = "," + output;
+    } else {
+      first = false;
+    }
+    fs.writeSync(fdOutput, output);
   }
 } finally {
+  fs.writeSync(fdOutput, "]");
   fs.closeSync(fdOutput);
 }
 
