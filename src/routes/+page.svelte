@@ -9,10 +9,11 @@
   let selectedCategories = [];
   let selectedPlayers = [];
   let selectedHowLong = [];
+  let sortOption = "latest";
 
   let articles = [];
   $: {
-    articles = GLOBAL_ARTICLES
+    let tmp = GLOBAL_ARTICLES
       //
       .filter(
         (a) =>
@@ -30,6 +31,10 @@
         (a) =>
           selectedHowLong.length === 0 || selectedHowLong.includes(a.howLong),
       );
+    if (sortOption === "latest") {
+      tmp = _.orderBy(tmp, "publishedAt", "desc");
+    }
+    articles = tmp; // fire trigger
   }
 </script>
 
@@ -113,9 +118,8 @@
       <div class="column is-4 is-offset-4">
         <div class="control has-icons-left">
           <div class="select is-rounded">
-            <select>
-              <option>Select dropdown</option>
-              <option>With options</option>
+            <select bind:value={sortOption}>
+              <option value="latest">最新</option>
             </select>
           </div>
           <div class="icon is-small is-left">

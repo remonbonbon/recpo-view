@@ -11,7 +11,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "サイコロゲーム",
-    publishedAt: "2021-11-2",
+    publishedAt: "2021-11-02",
     description: "サイコロゲーム",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -20,7 +20,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "拍手で脳トレ",
-    publishedAt: "2021-11-2",
+    publishedAt: "2021-11-02",
     description: "拍手で脳トレ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -29,7 +29,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "指折りグーパー",
-    publishedAt: "2021-11-2",
+    publishedAt: "2021-11-02",
     description: "指折りグーパー",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -38,7 +38,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "たんぽぽのびんづめ",
-    publishedAt: "2021-11-2",
+    publishedAt: "2021-11-02",
     description: "たんぽぽのびんづめ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -47,7 +47,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "紙コップピンポン",
-    publishedAt: "2021-11-2",
+    publishedAt: "2021-11-02",
     description: "紙コップピンポン",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -56,7 +56,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "つま先かかと体操",
-    publishedAt: "2021-11-2",
+    publishedAt: "2021-11-02",
     description: "つま先かかと体操",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -65,7 +65,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "サイコロゲーム",
-    publishedAt: "2021-10-4",
+    publishedAt: "2021-10-04",
     description: "サイコロゲーム",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -74,7 +74,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "あんたがたどこさでお手玉送り",
-    publishedAt: "2021-10-4",
+    publishedAt: "2021-10-04",
     description: "あんたがたどこさでお手玉送り",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -83,7 +83,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "お手玉ボウリング",
-    publishedAt: "2021-10-4",
+    publishedAt: "2021-10-04",
     description: "お手玉ボウリング",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -92,7 +92,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "ミミズの体操",
-    publishedAt: "2021-9-2",
+    publishedAt: "2021-09-02",
     description: "ミミズの体操",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -101,7 +101,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "お手玉ペタンク",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "お手玉をつかってペタンク（的に近づける）をします。",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -110,7 +110,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "チラシの折箱積み",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "チラシの折箱を何個積むことができるかに挑戦",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -119,7 +119,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "オールインボール",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "協力して穴からボールが全部落ちるようにします。",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -128,7 +128,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "数字パズル",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "お題の答えを数字パズルでつくります",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -137,7 +137,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "都道府県スリーヒントビンゴ",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "3つのヒントから都道府県を当てます",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -146,7 +146,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "ぱかぱかゲーム",
-    publishedAt: "2021-6-28",
+    publishedAt: "2021-06-28",
     description: "ぱかぱかゲーム",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -155,7 +155,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "指折り体操",
-    publishedAt: "2021-6-28",
+    publishedAt: "2021-06-28",
     description: "指折り体操",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -164,7 +164,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "タクスポ　ボトルつかみ",
-    publishedAt: "2021-6-28",
+    publishedAt: "2021-06-28",
     description: "タクスポ　ボトルつかみ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -173,7 +173,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "パタカラを使ったレクリエーション①",
-    publishedAt: "2021-6-25",
+    publishedAt: "2021-06-25",
     description: "パタカラを使ったレクリエーション①",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -182,7 +182,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "親指出し入れ体操",
-    publishedAt: "2021-6-25",
+    publishedAt: "2021-06-25",
     description: "親指出し入れ体操",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -191,7 +191,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "タクスポお尻歩き",
-    publishedAt: "2021-6-25",
+    publishedAt: "2021-06-25",
     description: "タクスポお尻歩き",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -200,7 +200,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "お手玉ふたつ",
-    publishedAt: "2021-6-19",
+    publishedAt: "2021-06-19",
     description: "お手玉を使ったレクリエーション活動を紹介します",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -209,7 +209,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "パタカラ口腔体操",
-    publishedAt: "2021-5-19",
+    publishedAt: "2021-05-19",
     description: "パタカラ口腔体操",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -218,7 +218,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "指折りワンとニャン",
-    publishedAt: "2021-4-25",
+    publishedAt: "2021-04-25",
     description: "指折りワンとニャン",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -227,7 +227,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "グーチョキパー体操",
-    publishedAt: "2021-4-25",
+    publishedAt: "2021-04-25",
     description: "グーチョキタイソウ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -236,7 +236,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "グーパー",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "グーパー",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -247,7 +247,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "ラダーゲッター",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "ラダーゲッター",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -256,7 +256,7 @@ const articles = [
   {
     category: "高齢者レク",
     title: "スキヤキジャンケン",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "スキヤキジャンケン",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -267,7 +267,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "バランススティックチャレンジ",
-    publishedAt: "2022-4-7",
+    publishedAt: "2022-04-07",
     description: "バランススティックチャレンジ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -276,7 +276,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "パスチャレ",
-    publishedAt: "2022-4-7",
+    publishedAt: "2022-04-07",
     description: "パスチャレ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -303,7 +303,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "サイコロゲーム",
-    publishedAt: "2021-11-2",
+    publishedAt: "2021-11-02",
     description: "サイコロゲーム",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -312,7 +312,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "拍手で脳トレ",
-    publishedAt: "2021-11-2",
+    publishedAt: "2021-11-02",
     description: "拍手で脳トレ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -321,7 +321,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "指折りグーパー",
-    publishedAt: "2021-11-2",
+    publishedAt: "2021-11-02",
     description: "指折りグーパー",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -330,7 +330,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "たんぽぽのびんづめ",
-    publishedAt: "2021-11-2",
+    publishedAt: "2021-11-02",
     description: "たんぽぽのびんづめ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -339,7 +339,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "紙コップピンポン",
-    publishedAt: "2021-11-2",
+    publishedAt: "2021-11-02",
     description: "紙コップピンポン",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -348,7 +348,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "つま先かかと体操",
-    publishedAt: "2021-11-2",
+    publishedAt: "2021-11-02",
     description: "つま先かかと体操",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -357,7 +357,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "サイコロゲーム",
-    publishedAt: "2021-10-4",
+    publishedAt: "2021-10-04",
     description: "サイコロゲーム",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -366,7 +366,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "紙ペラ体操",
-    publishedAt: "2021-10-4",
+    publishedAt: "2021-10-04",
     description: "紙ペラ体操",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -375,7 +375,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "あんたがたどこさでお手玉送り",
-    publishedAt: "2021-10-4",
+    publishedAt: "2021-10-04",
     description: "あんたがたどこさでお手玉送り",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -384,7 +384,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "お手玉ボウリング",
-    publishedAt: "2021-10-4",
+    publishedAt: "2021-10-04",
     description: "お手玉ボウリング",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -393,7 +393,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "脳トレグーチョキパー",
-    publishedAt: "2021-10-4",
+    publishedAt: "2021-10-04",
     description: "脳トレグーチョキパー体操",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -402,7 +402,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "ミミズの体操",
-    publishedAt: "2021-9-2",
+    publishedAt: "2021-09-02",
     description: "ミミズの体操",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -411,7 +411,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "お手玉ペタンク",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "お手玉をつかってペタンク（的に近づける）をします。",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -420,7 +420,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "チラシの折箱積み",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "チラシの折箱を何個積むことができるかに挑戦",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -429,7 +429,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "キーボードタッチ",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "指示された数字をタッチします",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -438,7 +438,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "くるましょうぎ",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "くるましょうぎ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -447,7 +447,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "テッシュ引き",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "ペットボトルが倒れないようにテッシュを引きます。",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -456,7 +456,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "オールインボール",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "協力して穴からボールが全部落ちるようにします。",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -465,7 +465,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "数字パズル",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "お題の答えを数字パズルでつくります",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -474,7 +474,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "都道府県スリーヒントビンゴ",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "3つのヒントから都道府県を当てます",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -483,7 +483,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "エアー縄跳び体操",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "実際の縄跳びはしないで縄とびの動きを楽しむ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -492,7 +492,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "キャップカーリング",
-    publishedAt: "2021-8-3",
+    publishedAt: "2021-08-03",
     description: "キャップカーリング",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -501,7 +501,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "ペットボトルキャップジャンプ",
-    publishedAt: "2021-8-3",
+    publishedAt: "2021-08-03",
     description: "ペットボトルキャップジャンプ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -510,7 +510,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "指折り体操",
-    publishedAt: "2021-6-28",
+    publishedAt: "2021-06-28",
     description: "指折り体操",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -519,7 +519,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "ぱかぱかゲーム",
-    publishedAt: "2021-6-28",
+    publishedAt: "2021-06-28",
     description: "ぱかぱかゲーム",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -528,7 +528,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "タクスポ　ボトルつかみ",
-    publishedAt: "2021-6-28",
+    publishedAt: "2021-06-28",
     description: "タクスポ　ボトルつかみ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -537,7 +537,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "パタカラを使ったレクリエーション②",
-    publishedAt: "2021-6-28",
+    publishedAt: "2021-06-28",
     description: "パタカラを使ったレクリエーション②",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -546,7 +546,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "親指出し入れ体操",
-    publishedAt: "2021-6-25",
+    publishedAt: "2021-06-25",
     description: "親指出し入れ体操",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -555,7 +555,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "タクスポお尻歩き",
-    publishedAt: "2021-6-25",
+    publishedAt: "2021-06-25",
     description: "タクスポお尻歩き",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -564,7 +564,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "パタカラを使ったレクリエーション①",
-    publishedAt: "2021-6-25",
+    publishedAt: "2021-06-25",
     description: "パタカラを使ったレクリエーション①",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -573,7 +573,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "お手玉ふたつ",
-    publishedAt: "2021-6-19",
+    publishedAt: "2021-06-19",
     description: "お手玉を使ったレクリエーション活動を紹介します",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -582,7 +582,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "サイコロ21",
-    publishedAt: "2021-6-7",
+    publishedAt: "2021-06-07",
     description:
       "オリジナル！おうちで60秒チャレンジ！\n\r\n「サイコロ21」です。\n\r\n3人それぞれ蹴って出た目の合計が21になる時間を競います。",
     numOfPlayers: "制限なし",
@@ -592,7 +592,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "パタカラ口腔体操",
-    publishedAt: "2021-5-19",
+    publishedAt: "2021-05-19",
     description: "パタカラ口腔体操",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -601,7 +601,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "指折りワンとニャン",
-    publishedAt: "2021-4-25",
+    publishedAt: "2021-04-25",
     description: "指折りワンとニャン",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -610,7 +610,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "グーチョキパー体操",
-    publishedAt: "2021-4-25",
+    publishedAt: "2021-04-25",
     description: "グーチョキタイソウ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -655,7 +655,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "2拍子3拍子",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "2拍子3拍子",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -666,7 +666,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "後出しジャンケン",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "後出しジャンケン",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -677,7 +677,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "協調グーパー",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "協調グーパー",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -688,7 +688,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "弟子のジャンケン",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "弟子のジャンケン",
     numOfPlayers: "2人から",
     howLong: "--",
@@ -699,7 +699,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "リレーポエム",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "リレーポエム",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -710,7 +710,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "マンカラ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "マンカラ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -719,7 +719,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "ラダーゲッター",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "ラダーゲッター",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -728,7 +728,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "キャッチング・ザ・スティック",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "キャッチング・ザ・スティック",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -737,7 +737,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "ネット・パス・ラリー",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "ネット・パス・ラリー",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -746,7 +746,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "ニチレクボール・チャレンジ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "ニチレクボール・チャレンジ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -755,7 +755,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "スピード・ラダーゲッター",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "スピード・ラダーゲッター",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -764,7 +764,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "グーパー",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "グーパー",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -775,7 +775,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "2拍子3拍子",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "2拍子3拍子",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -786,7 +786,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "ラダーゲッター",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "ラダーゲッター",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -795,7 +795,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "茶つぼ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "茶つぼ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -804,7 +804,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "指相撲",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "指相撲",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -813,7 +813,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "あんたがたどこさ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "あんたがたどこさ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -822,7 +822,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "スポーツテンカ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "スポーツテンカ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -831,7 +831,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "マンカラ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "マンカラ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -840,7 +840,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "リズム肩たたき",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "リズム肩たたき",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -851,7 +851,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "キャッチング・ザ・スティック",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "キャッチング・ザ・スティック",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -860,7 +860,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "ネット・パス・ラリー",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "ネット・パス・ラリー",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -869,7 +869,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "ニチレクボール・チャレンジ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "ニチレクボール・チャレンジ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -878,7 +878,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "スピード・ラダーゲッター",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "スピード・ラダーゲッター",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -887,7 +887,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "リズム手合わせ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "リズム手合わせ",
     numOfPlayers: "2人から6人まで",
     howLong: "--",
@@ -898,7 +898,7 @@ const articles = [
   {
     category: "介護予防レク",
     title: "リズム手合わせ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "リズム手合わせ",
     numOfPlayers: "2人から6人まで",
     howLong: "--",
@@ -909,7 +909,7 @@ const articles = [
   {
     category: "学校レク",
     title: "ひざポンチャレンジ",
-    publishedAt: "2022-4-7",
+    publishedAt: "2022-04-07",
     description:
       "二人が向き合い、あたま・かた・ひざぽんの歌に合わせて体を動かすゲームです。",
     numOfPlayers: "2人",
@@ -921,7 +921,7 @@ const articles = [
   {
     category: "学校レク",
     title: "パスレクリエーション",
-    publishedAt: "2022-4-7",
+    publishedAt: "2022-04-07",
     description: "心をつなげ！パスレクリエーション",
     numOfPlayers: "5人",
     howLong: "--",
@@ -932,7 +932,7 @@ const articles = [
   {
     category: "学校レク",
     title: "バランススティックチャレンジ",
-    publishedAt: "2022-4-7",
+    publishedAt: "2022-04-07",
     description: "バランススティックチャレンジ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -941,7 +941,7 @@ const articles = [
   {
     category: "学校レク",
     title: "パスチャレ",
-    publishedAt: "2022-4-7",
+    publishedAt: "2022-04-07",
     description: "パスチャレ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -995,7 +995,7 @@ const articles = [
   {
     category: "学校レク",
     title: "サイコロゲーム",
-    publishedAt: "2021-11-2",
+    publishedAt: "2021-11-02",
     description: "サイコロゲーム",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1004,7 +1004,7 @@ const articles = [
   {
     category: "学校レク",
     title: "たんぽぽのびんづめ",
-    publishedAt: "2021-11-2",
+    publishedAt: "2021-11-02",
     description: "たんぽぽのびんづめ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1013,7 +1013,7 @@ const articles = [
   {
     category: "学校レク",
     title: "紙コップピンポン",
-    publishedAt: "2021-11-2",
+    publishedAt: "2021-11-02",
     description: "紙コップピンポン",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1022,7 +1022,7 @@ const articles = [
   {
     category: "学校レク",
     title: "メンコあそび",
-    publishedAt: "2021-10-4",
+    publishedAt: "2021-10-04",
     description: "メンコあそび",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1031,7 +1031,7 @@ const articles = [
   {
     category: "学校レク",
     title: "ゴロゴロジャンプ",
-    publishedAt: "2021-10-4",
+    publishedAt: "2021-10-04",
     description: "ゴロゴロジャンプ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1040,7 +1040,7 @@ const articles = [
   {
     category: "学校レク",
     title: "サイコロゲーム",
-    publishedAt: "2021-10-4",
+    publishedAt: "2021-10-04",
     description: "サイコロゲーム",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1049,7 +1049,7 @@ const articles = [
   {
     category: "学校レク",
     title: "さんならべ",
-    publishedAt: "2021-10-4",
+    publishedAt: "2021-10-04",
     description: "さんならべ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1058,7 +1058,7 @@ const articles = [
   {
     category: "学校レク",
     title: "ひもあそび　その2",
-    publishedAt: "2021-10-4",
+    publishedAt: "2021-10-04",
     description: "ひもあそび　その2",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1067,7 +1067,7 @@ const articles = [
   {
     category: "学校レク",
     title: "よしお兄さんとうたおう！『うみ』",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "よしお兄さんとうたおう！『うみ』",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1076,7 +1076,7 @@ const articles = [
   {
     category: "学校レク",
     title: "コロコロストップ",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "ボールを指定の場所に止まるように転がします",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1085,7 +1085,7 @@ const articles = [
   {
     category: "学校レク",
     title: "お手玉ペタンク",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "お手玉をつかってペタンク（的に近づける）をします。",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1094,7 +1094,7 @@ const articles = [
   {
     category: "学校レク",
     title: "キーボードタッチ",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "指示された数字をタッチします",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1103,7 +1103,7 @@ const articles = [
   {
     category: "学校レク",
     title: "くるましょうぎ",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "くるましょうぎ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1112,7 +1112,7 @@ const articles = [
   {
     category: "学校レク",
     title: "テッシュ引き",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "ペットボトルが倒れないようにテッシュを引きます。",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1121,7 +1121,7 @@ const articles = [
   {
     category: "学校レク",
     title: "ひもあそび",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "ひもであそび",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1130,7 +1130,7 @@ const articles = [
   {
     category: "学校レク",
     title: "ザリガニジャンケン",
-    publishedAt: "2021-8-3",
+    publishedAt: "2021-08-03",
     description: "ザリガニジャンケン",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1139,7 +1139,7 @@ const articles = [
   {
     category: "学校レク",
     title: "いろいろジャンケン",
-    publishedAt: "2021-8-3",
+    publishedAt: "2021-08-03",
     description: "いろいろジャンケン",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1148,7 +1148,7 @@ const articles = [
   {
     category: "学校レク",
     title: "おうちで60秒チャレンジ",
-    publishedAt: "2021-8-3",
+    publishedAt: "2021-08-03",
     description: "おうちで60秒チャレンジ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1157,7 +1157,7 @@ const articles = [
   {
     category: "学校レク",
     title: "キャップカーリング",
-    publishedAt: "2021-8-3",
+    publishedAt: "2021-08-03",
     description: "キャップカーリング",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1166,7 +1166,7 @@ const articles = [
   {
     category: "学校レク",
     title: "くるくる紙コップ",
-    publishedAt: "2021-6-7",
+    publishedAt: "2021-06-07",
     description: "紙コップがくるくる回転して飛びます",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1175,7 +1175,7 @@ const articles = [
   {
     category: "学校レク",
     title: "だるまさんが転んだ",
-    publishedAt: "2021-5-19",
+    publishedAt: "2021-05-19",
     description: "だるまさんが転んだ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1184,7 +1184,7 @@ const articles = [
   {
     category: "学校レク",
     title: "パスパスチャレンジ",
-    publishedAt: "2021-4-25",
+    publishedAt: "2021-04-25",
     description: "パスパスチャレンジ",
     numOfPlayers: "2人から",
     howLong: "--",
@@ -1213,7 +1213,7 @@ const articles = [
   {
     category: "学校レク",
     title: "リズム手合わせ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "リズム手合わせ",
     numOfPlayers: "2人から6人まで",
     howLong: "--",
@@ -1224,7 +1224,7 @@ const articles = [
   {
     category: "学校レク",
     title: "2拍子3拍子",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "2拍子3拍子",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1235,7 +1235,7 @@ const articles = [
   {
     category: "学校レク",
     title: "チクタクボンボン",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "チクタクボンボン",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1246,7 +1246,7 @@ const articles = [
   {
     category: "学校レク",
     title: "王冠とり",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "王冠とり",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1257,7 +1257,7 @@ const articles = [
   {
     category: "学校レク",
     title: "ステレオコール",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "ステレオコール",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1268,7 +1268,7 @@ const articles = [
   {
     category: "学校レク",
     title: "リレーポエム",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "リレーポエム",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1279,7 +1279,7 @@ const articles = [
   {
     category: "学校レク",
     title: "リズム手合わせ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "リズム手合わせ",
     numOfPlayers: "2人から6人まで",
     howLong: "--",
@@ -1290,7 +1290,7 @@ const articles = [
   {
     category: "学校レク",
     title: "スピード・ラダーゲッター",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "スピード・ラダーゲッター",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1299,7 +1299,7 @@ const articles = [
   {
     category: "学校レク",
     title: "熊が出た",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "熊が出た",
     numOfPlayers: "10人から",
     howLong: "--",
@@ -1310,7 +1310,7 @@ const articles = [
   {
     category: "学校レク",
     title: "スキヤキジャンケン",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "スキヤキジャンケン",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1321,7 +1321,7 @@ const articles = [
   {
     category: "学校レク",
     title: "４人子分の大親分",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "４人子分の大親分",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1332,7 +1332,7 @@ const articles = [
   {
     category: "学校レク",
     title: "そーれで拍手",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "そーれで拍手",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1343,7 +1343,7 @@ const articles = [
   {
     category: "学校レク",
     title: "だるまさん",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "だるまさん",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1354,7 +1354,7 @@ const articles = [
   {
     category: "学校レク",
     title: "スポーツテンカ必殺キャッチ技（スーパーキャッチ編）",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "スポーツテンカ必殺キャッチ技（スーパーキャッチ編）",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1363,7 +1363,7 @@ const articles = [
   {
     category: "学校レク",
     title: "ニチレクボール・チャレンジ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "ニチレクボール・チャレンジ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1372,7 +1372,7 @@ const articles = [
   {
     category: "学校レク",
     title: "スポーツテンカ必殺キャッチ技（スーパーキャッチ編）",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "スポーツテンカ必殺キャッチ技（スーパーキャッチ編）",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1381,7 +1381,7 @@ const articles = [
   {
     category: "学校レク",
     title: "スポーツテンカ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "スポーツテンカ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1390,7 +1390,7 @@ const articles = [
   {
     category: "学校レク",
     title: "マンカラ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "マンカラ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1399,7 +1399,7 @@ const articles = [
   {
     category: "学校レク",
     title: "ラダーゲッター",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "ラダーゲッター",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1408,7 +1408,7 @@ const articles = [
   {
     category: "学校レク",
     title: "キャッチング・ザ・スティック",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "キャッチング・ザ・スティック",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1417,7 +1417,7 @@ const articles = [
   {
     category: "学校レク",
     title: "5人10脚",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "5人10脚",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1426,7 +1426,7 @@ const articles = [
   {
     category: "学校レク",
     title: "ネット・パス・ラリー",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "ネット・パス・ラリー",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1435,7 +1435,7 @@ const articles = [
   {
     category: "学校レク",
     title: "リズム肩たたき",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "リズム肩たたき",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1446,7 +1446,7 @@ const articles = [
   {
     category: "学校レク",
     title: "スピード・ラダーゲッター",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "スピード・ラダーゲッター",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1455,7 +1455,7 @@ const articles = [
   {
     category: "学校レク",
     title: "リズム手合わせ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "リズム手合わせ",
     numOfPlayers: "2人から6人まで",
     howLong: "--",
@@ -1466,7 +1466,7 @@ const articles = [
   {
     category: "学校レク",
     title: "リレーポエム",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "リレーポエム",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1477,7 +1477,7 @@ const articles = [
   {
     category: "学校レク",
     title: "ステレオコール",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "ステレオコール",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1497,7 +1497,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "たんぽぽのびんづめ",
-    publishedAt: "2021-11-2",
+    publishedAt: "2021-11-02",
     description: "たんぽぽのびんづめ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1506,7 +1506,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "ゴロゴロジャンプ",
-    publishedAt: "2021-10-4",
+    publishedAt: "2021-10-04",
     description: "ゴロゴロジャンプ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1515,7 +1515,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "よしお兄さんとうたおう！『うみ』",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "よしお兄さんとうたおう！『うみ』",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1524,7 +1524,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "コロコロストップ",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "ボールを指定の場所に止まるように転がします",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1533,7 +1533,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "キーボードタッチ",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "指示された数字をタッチします",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1542,7 +1542,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "ひもあそび",
-    publishedAt: "2021-8-30",
+    publishedAt: "2021-08-30",
     description: "ひもであそび",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1551,7 +1551,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "くるくる紙コップ",
-    publishedAt: "2021-6-7",
+    publishedAt: "2021-06-07",
     description: "紙コップがくるくる回転して飛びます",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1560,7 +1560,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "だるまさんが転んだ",
-    publishedAt: "2021-5-19",
+    publishedAt: "2021-05-19",
     description: "だるまさんが転んだ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1578,7 +1578,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "忍者とび",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "忍者とび",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1587,7 +1587,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "おはなしゆびさん",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "おはなしゆびさん",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1596,7 +1596,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "よしお兄さんとなわとび しょきゅうへん",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "よしお兄さんとなわとび しょきゅうへん",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1605,7 +1605,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "グーチョキーパーでなにつくろう♪どうぶつバージョン",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "グーチョキーパーでなにつくろう♪どうぶつバージョン",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1614,7 +1614,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "よしお兄さんの「てあそびうたミックス」",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "よしお兄さんの「てあそびうたミックス」",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1623,7 +1623,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "よしお兄さんの「あわてんぼうのサンタクロース」",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "よしお兄さんの「あわてんぼうのサンタクロース」",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1632,7 +1632,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "BEYOOOOONDSとよしお兄さんとあそぼう",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "BEYOOOOONDSとよしお兄さんとあそぼう",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1641,7 +1641,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "自由なパスあそび",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "自由なパスあそび",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1650,7 +1650,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "コロコロ8の字",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "コロコロ8の字",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1659,7 +1659,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "リングキャッチ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "リングキャッチ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1668,7 +1668,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "リングフープ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "リングフープ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1677,7 +1677,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "マンカラ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "マンカラ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1686,7 +1686,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "ニチレクボール・チャレンジ",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "ニチレクボール・チャレンジ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1695,7 +1695,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "そーれで拍手",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "そーれで拍手",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1706,7 +1706,7 @@ const articles = [
   {
     category: "幼児レク",
     title: "だるまさん",
-    publishedAt: "2020-11-6",
+    publishedAt: "2020-11-06",
     description: "だるまさん",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -1717,7 +1717,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "チャレンジ・ザ・ゲーム～学校教育編～",
-    publishedAt: "2024-3-27",
+    publishedAt: "2024-03-27",
     description:
       "チャレンジ・ザ・ゲームとは平成元年に日本レクリエーション協会が考案し、全国各地で幅広い年齢層に親しまれているスポーツ・レクリエーションです。2023年現在の時点で12種類あり、体力や年齢に応じて自分に合った種目を選択できるのも魅力の一つです。体力や技術、勝敗を競うのではなく、グループで交流を楽しみながらできるため、運動経験の少ない方、苦手な方でも気軽に取り組むことができます。近年は学校教育現場での活用が広がっていることでも注目されています。\n\r\nこの動画では、チャレンジ・ザ・ゲームの種目の1つであるスピード・ラダーゲッターを取り入れて、年間を通して運動や外遊びをする機会を増やす習慣をつくり、体力向上はもちろん、元気いっぱいの心を育てることを目的とした神奈川県横浜市の小学校での取り組みを紹介します。",
     numOfPlayers: "制限なし",
@@ -1729,7 +1729,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "チャレンジ・ザ・ゲーム",
-    publishedAt: "2024-3-27",
+    publishedAt: "2024-03-27",
     description:
       "チャレンジ・ザ・ゲームは、グループで交流しながら記録に挑戦し、遊び感覚で体を動かす楽しさを味わえる”新感覚”のスポーツ・レクリエーションです。ボールを使ったり、ロープやスティックを使ったりなど、ユニークなゲームがたくさんあります。また、一年中、いつでも、どこでも、記録を申請することで参加できるユニークな大会「全国いつでもチャレンジ・ザ・ゲーム大会」を開催しています。学校や職場、地域など、さまざまな場面で、たくさんの方々に楽しまれています。",
     numOfPlayers: "2人から",
@@ -1741,7 +1741,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "ニチレクボール・チャレンジ",
-    publishedAt: "2024-3-27",
+    publishedAt: "2024-03-27",
     description:
       "３メートル離れた場所に置いた目標球（ビュット）に、６個のニチレクボールを全部当てた後、全員でビュットを含む全てのボールの外側を同じ方向に周回して戻るまでのタイムを競います。",
     numOfPlayers: "3人から",
@@ -1753,7 +1753,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "チームふらば～るボール",
-    publishedAt: "2024-3-27",
+    publishedAt: "2024-03-27",
     description:
       "４人が４メートル離れて四角形を作り、ふらば～るをワンバウンドパスして、２分間で全員がキャッチに成功した回数がカウントされ合計数が記録となります。",
     numOfPlayers: "4人",
@@ -1765,7 +1765,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "スピード・ラダーゲッター",
-    publishedAt: "2024-3-27",
+    publishedAt: "2024-03-27",
     description:
       "ボールを投げて、全てのラダーにどれだけ早くかけられるかを楽しむゲーム。",
     numOfPlayers: "3人から6人まで",
@@ -1777,7 +1777,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "ペア・リング・キャッチ",
-    publishedAt: "2024-3-27",
+    publishedAt: "2024-03-27",
     description:
       "向い合った2人が3本以上のリングをまとめて投げ合い、トータルでいくつのリングをキャッチできるかを競う、少人数で楽しめる種目です。2人の距離は、お互いの両手を大きく広げた距離の長さなので、子ども同士であれば距離は短く、大人であれば長くなるので、異年齢の対抗戦も楽しめます。",
     numOfPlayers: "2人から",
@@ -1789,7 +1789,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "キャッチング・ザ・スティック",
-    publishedAt: "2024-3-27",
+    publishedAt: "2024-03-27",
     description:
       "10人が横一列に並び、向かって右から8人がスティック(2本）を持ち、左側の 2人が待機。はじめ「セーノ、トン、トン、パッ」の掛け声に合わせ、スティックを床に2回突き、「パッ」で右隣の人の2本のスティックを移動してキャッチ。全員が 成功したら1カウントで、 リズムに合わせて何回続けられるかを楽しみます。",
     numOfPlayers: "10人から12人まで",
@@ -1801,7 +1801,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "ロープ・ジャンプ・X",
-    publishedAt: "2024-3-27",
+    publishedAt: "2024-03-27",
     description:
       "長さ10ｍのロープを使ったなわとびで、３人以上であれば何人でも楽しめます。小さいグループでも、学校のクラス単位でも競い合えるのが魅力です。運動量もあり、子どもから壮年の方まで、幅広い人たちに人気があります。",
     numOfPlayers: "3人から",
@@ -1813,7 +1813,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "ネット・パス・ラリー",
-    publishedAt: "2024-3-27",
+    publishedAt: "2024-03-27",
     description:
       "ネットにボールを載せて持ち、ペア2組で向かい合い、ネットの上のボールを交換して楽しみます。目を合わせ、呼吸をそろえ、声を掛け合うのが成功のポイント。小グループ内でのふれ合いや交流づくりを演出するのにも適しています。",
     numOfPlayers: "4人から",
@@ -1825,7 +1825,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "手のひら健康バレー2分間勝負",
-    publishedAt: "2024-3-27",
+    publishedAt: "2024-03-27",
     description:
       "専用のボール（30ｇ）とネットを用いて、ネット越しにボールの連続パスを２分間で何回できるかを競います。",
     numOfPlayers: "6人",
@@ -1837,7 +1837,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "ゴム・ダンス・“ステっぴょん”",
-    publishedAt: "2024-3-27",
+    publishedAt: "2024-03-27",
     description:
       "これまで跳び役が2人のところを1人すつ跳ぶルールに改訂。5人以上（リズムキー ー 2人／跳び役3人以上）で、何人が規定のステップを行うことができたかを競う。",
     numOfPlayers: "5人から",
@@ -1849,7 +1849,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "チームテンカボール",
-    publishedAt: "2024-3-27",
+    publishedAt: "2024-03-27",
     description:
       "キャッチの仕方でポイントが変わるボールスロー＆キャッチのゲーム。制限時間内にどれだけポイントを獲得できるかを楽しみます。取りやすいようにスローして、高得点を稼げるキャッチを続けてみよう。",
     numOfPlayers: "4人から",
@@ -1861,7 +1861,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "音楽レクリエーション~あそびうた 指導実践編~",
-    publishedAt: "2023-3-28",
+    publishedAt: "2023-03-28",
     description:
       "音楽レクリエーションは、公益財団法人日本レクリエーション協会が推進する、音楽を用いたレクリエーション活動の総称です。音楽レクリエーションといっても、「わらべうた」や「あそびうた」のように、歌やリズムに合わせて遊んだりゲームをする活動、「うた体操」のように、親しみのある歌に合わせて身体（からだ）を動かす活動、季節を感じる歌や、かつて親しんだ流行歌をみんなと楽しむ活動、懐かしいうたをきっかけに回想や交流を楽しむ活動、音に耳を傾け、即興的な創作を楽しむ活動など、幅広く展開することができます。\n\r\nこの動画では、魅力満載の音楽レクリエーションから3つの「あそびうた」の進め方をご紹介します。",
     numOfPlayers: "制限なし",
@@ -1873,7 +1873,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "音楽レクリエーション あそびうた",
-    publishedAt: "2023-3-28",
+    publishedAt: "2023-03-28",
     description:
       "音楽レクリエーションは、公益財団法人日本レクリエーション協会が推進する、音楽を用いたレクリエーション活動の総称です。音楽レクリエーションといっても、「わらべうた」や「あそびうた」のように、歌やリズムに合わせて遊んだりゲームをする活動、「うた体操」のように、親しみのある歌に合わせて身体（からだ）を動かす活動、季節を感じる歌や、かつて親しんだ流行歌をみんなと楽しむ活動、懐かしいうたをきっかけに回想や交流を楽しむ活動、音に耳を傾け、即興的な創作を楽しむ活動など、幅広く展開することができます。\n\r\nこの動画では、魅力満載の音楽レクリエーションから「あそびうた」をご紹介します。",
     numOfPlayers: "制限なし",
@@ -1885,7 +1885,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "音楽レクリエーション うた体操",
-    publishedAt: "2023-3-28",
+    publishedAt: "2023-03-28",
     description:
       "音楽レクリエーションは、公益財団法人日本レクリエーション協会が推進する、音楽を用いたレクリエーション活動の総称です。音楽レクリエーションといっても、「わらべうた」や「あそびうた」のように、歌やリズムに合わせて遊んだりゲームをする活動、「うた体操」のように、親しみのある歌に合わせて身体（からだ）を動かす活動、季節を感じる歌や、かつて親しんだ流行歌をみんなと楽しむ活動、懐かしいうたをきっかけに回想や交流を楽しむ活動、音に耳を傾け、即興的な創作を楽しむ活動など、幅広く展開することができます。\n\r\nこの動画では、魅力満載の音楽レクリエーションから「うた体操」をご紹介します。",
     numOfPlayers: "制限なし",
@@ -1897,7 +1897,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "フライングディスク",
-    publishedAt: "2023-3-22",
+    publishedAt: "2023-03-22",
     description:
       "小・中学校の保健体育の授業において、フライングディスクを使用した競技を採用されている先生方も多いのではないでしょうか。ただ、授業の中で展開していくにしても、どのように指導していくべきかという点で、不安に思われる先生もいらっしゃるかもしれません。\n\r\nこの動画では先生方の指針になるような、指導方法およびプランについて紹介しています。",
     numOfPlayers: "制限なし",
@@ -1909,7 +1909,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "ウォークラリー大会を成功させよう",
-    publishedAt: "2023-3-22",
+    publishedAt: "2023-03-22",
     description:
       "ウォークラリーは、健康づくり、地域文化の見どころの再発見、家族や仲間同士のコミュニケーション促進など、多くの人に楽しんでもらいながら目的に合わせた企画ができる人気のスポーツ・レクリエーションプログラムです。\n\r\nこの動画では、ウォークラリーイベントを円滑に進め、参加者にもしっかり楽しんでもらうための運営方法をいくつかのポイントに分けて紹介します。",
     numOfPlayers: "制限なし",
@@ -1921,7 +1921,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "インディアカ",
-    publishedAt: "2023-3-22",
+    publishedAt: "2023-03-22",
     description:
       "赤い大きな羽のついたボールをバレーボールのように味方同士でつないで得点をうばいあう健康スポーツ「インディアカ 」。\n\r\n「コミュニケーションを育む」「身体能力向上が期待できる」「自己肯定感を高める」ことなどから、小中学校の保健体育はもちろん、運動部地域移行における多種目型クラブにも導入しやすいスポーツとして期待されています。\n\r\nこの動画では、小中学校などの教育現場でインディアカを導入する際に無理なく取り組めるよう、インディアカの基本指導について紹介しています。",
     numOfPlayers: "制限なし",
@@ -1933,7 +1933,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "キャンプ初心者のための基礎講座",
-    publishedAt: "2023-3-20",
+    publishedAt: "2023-03-20",
     description:
       "近年、人気のアクティビティとして注目されているキャンプ。ブームに伴い、キャンプを楽しむ人は急増しましたが、ゴミやマナー問題、環境破壊など、一部の人のルール違反などが社会問題となり、キャンプそのものにマイナスイメージが広がり、このままでは地域や自治体によるキャンプへの規制が厳しくなる恐れがあります。そこで誰もがキャンプを安全に、安心して楽しめるようにと、日本キャンプ協会が「グッドキャンパー宣言」を定めました。",
     numOfPlayers: "制限なし",
@@ -1945,7 +1945,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "防災ウォーク 備（そなえ）",
-    publishedAt: "2023-3-20",
+    publishedAt: "2023-03-20",
     description:
       "日本ウオーキング協会が考案したウォーキングを通じて防災について学ぶことができる市民参加型のウォーキングイベント「防災ウォーク 備（そなえ）」。ここでは福島で行われたプログラムを紹介しています。",
     numOfPlayers: "制限なし",
@@ -1957,7 +1957,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "集団用とびなわ",
-    publishedAt: "2023-3-20",
+    publishedAt: "2023-03-20",
     description:
       "「集団用とびなわ」とは、日本レクリエーション協会が公認するレクリエーション用具のひとつです。グリップ部分は68cmと長く、回し手の負担を軽減。ロープの長さは10ｍ、太さ1cmで、ロープの中には芯が入っているので、安定して回しやすいのが特徴のとびなわです。集団用とびなわを使った遊びである大縄跳びには、持久力アップ、筋力アップ、リズム感、協調性、集中力、チャレンジ精神、団結力など、さまざまな力が身につくと言われており、教育現場、職場、地域など、さまざまな現場で活用されています。",
     numOfPlayers: "制限なし",
@@ -1969,7 +1969,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "ニチレク・スティック",
-    publishedAt: "2023-3-15",
+    publishedAt: "2023-03-15",
     description:
       "ニチレク・スティックとは、日本レクリエーション協会が考案した用具のひとつで、スティックを使って多彩なレクリエーション活動が行えます。スティックの長さは約1m。セットにはそのスティックが16本付属しています。そのため、少ない人数で遊ぶことはもちろん、クラス全体で行う学級レクにも使えるなど程よい運動、生徒同士のコミュニケーションの促進など幅広い用途に役立てることができます。",
     numOfPlayers: "制限なし",
@@ -1981,7 +1981,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "健康スポーツ",
-    publishedAt: "2022-3-23",
+    publishedAt: "2022-03-23",
     description:
       "スポーツってなんだろう？　野球、サッカー、陸上、テニス、水泳…。スポーツと聞いて思い浮かぶのは勝ち負けを競う「競技種目」ではないでしょうか。そもそもスポーツという言葉はラテン語の「DEPORTARE」に由来し、運び去る・運搬するという意味から精神的な次元の移動や返還へと転じ、「義務からの気分転換・元気の回復」という意味合いで使われるようになったと言われています。つまり、人生を楽しみ、元気に生きるための「気晴らし」「楽しみ」「休養」こそがスポーツの本質なのです。そんな広い意味を持つスポーツの中に、近年、競技スポーツとは一線を画し、注目を集めているジャンルがあります。それが「健康スポーツ」です。",
     numOfPlayers: "制限なし",
@@ -1993,7 +1993,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "健康スポレクひろば",
-    publishedAt: "2022-3-23",
+    publishedAt: "2022-03-23",
     description:
       "いつまでも健康で若々しく、アクティブな毎日を送りたい。そんなシニア世代のみなさんの想いに応え、健康づくりをサポートする、とっておきの場。それが「健康スポレクひろば」です。運動やスポーツ・レクリエーションに親しんでいない高齢者にスポーツ・レクリエーション活動がもたらす健康への効果を伝え、継続的にスポーツ・レクリエーションを楽しんでもらうことを目的に、日本レクリエーション協会ならびに、都道府県レクリエーション協会、市区町村レクリエーション協会などが中心となって展開する活動です。",
     numOfPlayers: "制限なし",
@@ -2005,7 +2005,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "ラダーゲッター",
-    publishedAt: "2022-3-18",
+    publishedAt: "2022-03-18",
     description:
       "ラダーゲッターは、ヒモでつながっている２個のボールをラダー（ハシゴ）に向かって投げ、ボールがラダーに引っ掛かる（ハングする）と得点となる三世代交流も可能なスポーツ・レクリエーションです。\n\r\nルールは簡単で、投げたボールがラダーにハングすると、表示されている数字がポイントになります。\n\r\n基本となる投げ方は、２個あるボールのうち片方のボールを手に持ち、もう片方のボールを下に垂らしてゆっくり前後にスイングし、ボールが後方回転しながら山なりに飛んでいくようにアンダーハンドで投げます。\n\r\n３本あるラダーには、下から１、２、３とポイントが表示されていて、それぞれのラダーにハングしたボールの数×表示されたポイントの合計ポイントを競います。\n\r\nただし、投げたボールが床にバウンドして３本あるいずれかのラダーにハングした場合は、表示されている数字に関係なくハングしたボールの数×５ポイントとなります。",
     numOfPlayers: "制限なし",
@@ -2017,7 +2017,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "おうちで60秒チャレンジ",
-    publishedAt: "2022-3-18",
+    publishedAt: "2022-03-18",
     description:
       "「おうちで60秒チャレンジ」は、自宅で、家族でできるレクリエーション活動（からだを動かすあそび）です。外出の自粛や休校による自宅待機が続く中、運動不足やストレスなどの課題に対応する取り組みとしてスタートしました。\n\r\nコンセプトは、「身近な物を使う！」「適度な運動量がある！」「あそび方はシンプル！」「夢中になれる！」「見ていて楽しい！」こと。\n\r\n新聞紙スティックを倒さないようにすばやくキャッチしたり、新聞紙リングでペットボトルをゲットしたり、目隠しをして60秒ピッタリを目指したり。家の中で、家族で協力しながらチャレンジできるものばかりです。\n\r\n是非、みなさんも一緒にチャレンジしましょう！",
     numOfPlayers: "制限なし",
@@ -2029,7 +2029,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "チャレンジ・ザ・ゲーム",
-    publishedAt: "2022-3-18",
+    publishedAt: "2022-03-18",
     description:
       "チャレンジ・ザ・ゲームは、平成元年に日本レクリエーション協会が考案し、以降、全国各地で幅広い年齢層に親しまれているスポーツ・レクリエーションです。技術や体力、勝敗を競うのではなく、グループでの交流を楽しみながら記録に挑戦することができます。",
     numOfPlayers: "制限なし",
@@ -2041,7 +2041,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "フライングディスク",
-    publishedAt: "2022-3-2",
+    publishedAt: "2022-03-02",
     description:
       "フライングディスクの起源は、1940年代に、アメリカ合衆国コネチカット州にあるエール大学の学生が、キャンパス近くの「フリスビー・パイ」というパイ屋のパイ皿を投げて遊んだことが起源とされています。そして、その金属製パイ皿を投げて遊ぶ姿を見たウォルター・フレデリック・モリソンが、1948年にプラスティック製の安全なディスクを作ったのが始まりです。その後、製造・販売の権利をモリソンから取得したワーム・オー(WHAM-O)社が1959年に”Frisbee”の名称を登録商標として売り出したことから世界中に広まりました。",
     numOfPlayers: "制限なし",
@@ -2053,7 +2053,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "ビリヤード",
-    publishedAt: "2022-3-2",
+    publishedAt: "2022-03-02",
     description:
       "ビリヤードは、青少年から90歳までのスポーツといわれ、世界各国で幅広い年齢層の方々が手軽に楽しまれています。使用するテーブルの形状によって、大きくキャロム競技とポケット競技に分けられ、使用する道具等が若干異なります。",
     numOfPlayers: "制限なし",
@@ -2065,7 +2065,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "タッチラグビー",
-    publishedAt: "2022-3-2",
+    publishedAt: "2022-03-02",
     description:
       "タッチラグビー (Touch Rugby) は、ラグビーからタックル、スクラムなどのコンタクトプレーと、キックをのぞいたパスゲームで、より親しみやすい簡易型フットボールです。\n\r\nラグビーで用いられるタックルを安全な「タッチ」に置き換えたスポーツ、それが「タッチラグビー」です。子どもからシニアまで男女問わず楽しむことができ、「誰でも一緒にプレーできる親しみやすさ」が大きな魅力です。\n\r\nラグビー経験者だけではなく、未経験者にも親しみやすく、子供から大人、年配、女性まで楽しめるスポーツです。\n\r\n1960年代に、オーストラリアでラグビーリーグのウォーミングアップとして始められ、徐々に拡がり、ニュージーランド、欧米など多くの国で親しまれるようになりました。競技人口も50万人以上と、人気なスポーツになってきています。\n\r\n日本においても、1989年に日本タッチ協会が設立され、全国各地に10万人にも達しています。\n\r\n公式大会も「JAPANカップ」、「関西大会」、「関東大会」、「学生選手権」など各地で多数開催され、関西でも多くの大会が開催されています。",
     numOfPlayers: "制限なし",
@@ -2077,7 +2077,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "ダーツ",
-    publishedAt: "2022-3-2",
+    publishedAt: "2022-03-02",
     description:
       "近年わが国は余暇時間の増大と共に急激にスポーツ、レジャー志向が高まってきました。 その中で21世紀のスポーツとして注目されているのが「ダーツ競技」です。 ダーツ競技は健康な体と豊かな心を育むスポーツとして、年齢、性別に関係なく誰でも気軽にプレーできることから、多くの人々に親しまれてきました。 情操教育の一環として学校教育で行う事の出来る「教育スポーツ」、心身の健全育成を目指した「競技スポーツ」、高齢化社会へ向かっての「生涯スポーツ」として、今の日本に新しい息吹を吹き起こすスポーツとして注目を集めています。",
     numOfPlayers: "制限なし",
@@ -2089,7 +2089,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "インディアカ",
-    publishedAt: "2022-3-2",
+    publishedAt: "2022-03-02",
     description:
       "「インディアカ」は羽根の付いた特殊なボール（「インディアカボール」と呼びます。）を手で打ち合う、バレーボールタイプのスポーツです。インディアカボールは、ラケットなどを用いずに直接手で打ち合うことも大きな特徴です。",
     numOfPlayers: "制限なし",
@@ -2101,7 +2101,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "カバディ",
-    publishedAt: "2022-3-2",
+    publishedAt: "2022-03-02",
     description:
       "カバディは鬼ごっことドッジボールが融合したような独自のルールを持つスポーツです。\n\r\nインド、パキスタン、バングラデシュなど南アジア諸国で数千年の歴史を持つ、伝統ある国技として親しまれてきたスポーツです。\n\r\n現在では、インド、パキスタン、バングラデシュ、スリランカ、ネパール、イラン、タイ、マレーシア、シンガポール、ブータン、モルジブ、ラオス、インド ネシア、アフガニスタン、トルクメニスタン、キルギスタン、中国、韓国、日本のアジア各国に加え、イングランド、イタリア、ドイツ、カナダ、アメリカ、西インド諸島、オーストラリアと、欧米諸国にも拡がりをみせています。",
     numOfPlayers: "制限なし",
@@ -2113,7 +2113,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "スポーツウエルネス吹矢",
-    publishedAt: "2022-2-7",
+    publishedAt: "2022-02-07",
     description:
       "スポーツウエルネス吹矢は、健康を目的とした新しい国民的スポーツです。5～10ｍ離れた円形の的をめがけて息を使って矢を放ち、その得点を競うスポーツです。性別・年齢問わず誰でも手軽にでき、ゲーム感覚で楽しみながら健康になれるスポーツとして注目されています。\n\r\n健康効果の秘訣は、腹式呼吸をベースにしたスポーツウエルネス吹矢式呼吸法です。\n\r\n精神集中や血行促進、細胞の活性化に役立ち、内臓の諸器官にもよい影響を与えます。また精神力・集中力が身に付きます。",
     numOfPlayers: "制限なし",
@@ -2125,7 +2125,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "おもしろスポーツ",
-    publishedAt: "2021-6-7",
+    publishedAt: "2021-06-07",
     description: "ワッキーさんが紹介するおもしろスポーツ",
     numOfPlayers: "制限なし",
     howLong: "--",
@@ -2134,7 +2134,7 @@ const articles = [
   {
     category: "健康スポーツ／ニュースポーツ",
     title: "サイコロ21",
-    publishedAt: "2021-6-7",
+    publishedAt: "2021-06-07",
     description:
       "オリジナル！おうちで60秒チャレンジ！\n\r\n「サイコロ21」です。\n\r\n3人それぞれ蹴って出た目の合計が21になる時間を競います。",
     numOfPlayers: "制限なし",
@@ -2145,7 +2145,7 @@ const articles = [
     category: "健康スポーツ／ニュースポーツ",
     title:
       "スポーツ庁「運動部活動改革プラン」~スポレク部の創設の取り組み事例紹介~",
-    publishedAt: "2020-3-3",
+    publishedAt: "2020-03-03",
     description:
       "スポーツ庁より委託を受け、運動が苦手な生徒も楽しく取り組める運動部活動を展開します。\n\r\nこの動画は、令和元年度の取り組みの様子をダイジェストにまとめてご紹介しているものです。",
     numOfPlayers: "制限なし",

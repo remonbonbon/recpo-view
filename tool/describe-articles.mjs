@@ -45,7 +45,11 @@ try {
       .querySelector(".asobi-article-main-title > div")
       ?.text?.replace("公開日", "")
       ?.trim()
-      ?.replace(/^([0-9]{4})年([0-9]{1,2})月([0-9]{1,2})日$/, "$1-$2-$3");
+      ?.replace(
+        /^([0-9]{4})年([0-9]{1,2})月([0-9]{1,2})日$/,
+        (match, p1, p2, p3) =>
+          [p1, p2.padStart(2, "0"), p3.padStart(2, "0")].join("-"),
+      );
     // console.log(`[${publishedAt}]`);
 
     const desc = root.querySelector(".asobi-articles p.lead")?.text?.trim();
