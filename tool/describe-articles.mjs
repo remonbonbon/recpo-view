@@ -69,9 +69,16 @@ try {
       .replace(/\s+/g, "\n");
     // console.log(`[${desc2}]`);
 
+    const youtubeEmbedUrl = root
+      .querySelector("iframe.embed-responsive-item")
+      ?.getAttribute("src");
+    const youtubeId = /youtube\.com\/embed\/(.+)\?/.exec(youtubeEmbedUrl)[1];
+    // const youtubeUrl = `https://www.youtube.com/watch?v=${youtubeId}`;
+    // const youtubeImg = `https://img.youtube.com/vi/${youtubeId}/mqdefault.jpg`;
+
     let output =
       JSON.stringify({
-        url,
+        // url,
         category,
         title,
         publishedAt,
@@ -79,6 +86,7 @@ try {
         numOfPlayers,
         howLong,
         detail: desc2,
+        youtubeId,
       }) + "\n";
     if (!first) {
       output = "," + output;
