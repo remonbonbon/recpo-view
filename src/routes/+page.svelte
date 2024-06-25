@@ -10,29 +10,33 @@
   let selectedPlayers = [];
   let selectedHowLong = [];
   let sortOption = "latest";
+  let searchWord = "";
 
   let articles = [];
   $: {
-    let tmp = GLOBAL_ARTICLES
-      //
-      .filter(
+    let tmp = GLOBAL_ARTICLES;
+    if (searchWord) {
+      tmp = tmp.filter(
         (a) =>
-          selectedCategories.length === 0 ||
-          selectedCategories.includes(a.category),
-      )
-      //
-      .filter(
-        (a) =>
-          selectedPlayers.length === 0 ||
-          selectedPlayers.includes(a.numOfPlayers),
-      )
-      //
-      .filter(
-        (a) =>
-          selectedHowLong.length === 0 || selectedHowLong.includes(a.howLong),
+          a.title?.includes(searchWord) ||
+          a.description?.includes(searchWord) ||
+          a.detail?.includes(searchWord),
       );
+    }
+    if (0 < selectedCategories.length) {
+      tmp = tmp.filter((a) => selectedCategories.includes(a.category));
+    }
+    if (0 < selectedPlayers.length) {
+      tmp = tmp.filter((a) => selectedPlayers.includes(a.numOfPlayers));
+    }
+    if (0 < selectedHowLong.length) {
+      tmp = tmp.filter((a) => selectedHowLong.includes(a.howLong));
+    }
     if (sortOption === "latest") {
       tmp = _.orderBy(tmp, "publishedAt", "desc");
+    }
+    if (sortOption === "random") {
+      tmp = _.shuffle(tmp);
     }
     articles = tmp; // fire trigger
   }
@@ -49,7 +53,12 @@
   <div class="navbar-item">
     <div class="field has-addons">
       <div class="control" style="width:30rem">
-        <input class="input is-rounded" type="text" placeholder="検索" />
+        <input
+          class="input is-rounded"
+          type="text"
+          placeholder="検索"
+          bind:value={searchWord}
+        />
       </div>
       <div class="control">
         <button class="button is-dark is-rounded">
@@ -111,20 +120,24 @@
   </aside>
   <div class="column is-10 is-fullheight">
     <!-- 件数とか -->
-    <div class="columns">
-      <div class="column is-4">
-        <span class="is-size-5">{articles.length} 件</span>
-      </div>
-      <div class="column is-4 is-offset-4">
+    <div class="block">
+      <div class="is-flex is-flex-direction-row">
         <div class="control has-icons-left">
           <div class="select is-rounded">
             <select bind:value={sortOption}>
               <option value="latest">最新</option>
+              <option value="random">ランダム</option>
             </select>
           </div>
           <div class="icon is-small is-left">
             <i class="fa-solid fa-arrow-down-wide-short"></i>
           </div>
+        </div>
+        <div class="ml-3 mt-1">
+          <span class="is-size-5">
+            {#if searchWord}「{searchWord}」の検索結果{:else}全{/if}
+            {articles.length} 件
+          </span>
         </div>
       </div>
     </div>
