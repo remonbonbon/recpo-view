@@ -25,6 +25,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"lodash-es": "^4.17.21",
 		"node-html-parser": "^6.1.13"
 	}
 }
